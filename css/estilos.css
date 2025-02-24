@@ -230,7 +230,6 @@ footer{
 }
 
 #inicio{
-    background-image: url(../imagenes/Inicio.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 280px;
