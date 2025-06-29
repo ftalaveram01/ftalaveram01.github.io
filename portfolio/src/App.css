@@ -43,8 +43,8 @@
 .tecnologias {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .logoTecnologia {

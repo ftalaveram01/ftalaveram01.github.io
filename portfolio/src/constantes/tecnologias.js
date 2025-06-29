@@ -1,36 +1,60 @@
+import logoHtml from '../assets/logo-html-5.png';
+import logoCss from '../assets/logo-css3.png';
+import logoJavaScript from '../assets/logo-javascript.png';
+import logoReact from '../assets/logo-react.png';
+import logoAngular from '../assets/logo-angular.png';
+import logoAndroid from '../assets/logo-android.png';
+import logoGit from '../assets/logo-git.png';
+import logoGitHub from '../assets/github-redondo.png';
+import logoMySQL from '../assets/logo-mysql.png';
+import logoNode from '../assets/logo-nodejs.png';
+import logoJava from '../assets/logo-java.png';
+
 export function getTecnologias() {
     return [
         {
             nombre: 'HTML',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
+            logo: logoHtml
         },
         {
             nombre: 'CSS',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'
+            logo: logoCss
         },
         {
             nombre: 'JavaScript',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+            logo: logoJavaScript
         },
         {
             nombre: 'React',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+            logo: logoReact
+        },
+        {
+            nombre: 'Angular',
+            logo: logoAngular
+        },
+        {
+            nombre: 'Android',
+            logo: logoAndroid
         },
         {
             nombre: 'Git',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
+            logo: logoGit
         },
         {
             nombre: 'GitHub',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
+            logo: logoGitHub
         },
         {
             nombre: 'MySQL',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg'
+            logo: logoMySQL
         },
         {
             nombre: 'Node.js',
-            logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'
+            logo: logoNode
+        },
+        {
+            nombre: 'Java',
+            logo: logoJava
         }
     ]
 }
