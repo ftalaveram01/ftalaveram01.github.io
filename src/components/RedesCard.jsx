@@ -6,10 +6,10 @@ export default function RedesCard() {
         <section className='tarjeta'>
             <h2>Redes</h2>
             <div className='redes'>
-                <a href="https://www.linkedin.com/in/fernando-talavera-mostazo-986297279/" target='_blank' rel="noopener noreferrer">
+                <a className='red' href="https://www.linkedin.com/in/fernando-talavera-mostazo-986297279/" target='_blank' rel="noopener noreferrer">
                     <img className='logo' src={logoLinkedIn} alt="Mi perfil de LinkedIn" />
                 </a>
-                <a href="https://github.com/ftalaveram01" target='_blank' rel="noopener noreferrer">
+                <a className='red' href="https://github.com/ftalaveram01" target='_blank' rel="noopener noreferrer">
                     <img className='logo' src={logoGitHub} alt="Mi perfil de GitHub" />
                 </a>
             </div>
