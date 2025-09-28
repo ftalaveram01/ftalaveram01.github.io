@@ -9,6 +9,7 @@ import logoGitHub from '../assets/github-redondo.png';
 import logoMySQL from '../assets/logo-mysql.png';
 import logoNode from '../assets/logo-nodejs.png';
 import logoJava from '../assets/logo-java.png';
+import logoSpring from '../assets/logo_spring_boot.svg';
 
 export function getTecnologias() {
     return [
@@ -55,6 +56,10 @@ export function getTecnologias() {
         {
             nombre: 'Java',
             logo: logoJava
+        },
+        {
+            nombre: 'Spring Boot',
+            logo: logoSpring
         }
     ]
 }
